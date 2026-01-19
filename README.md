@@ -1,6 +1,6 @@
 # 📦 מערכת ניהול מלאי חכם (Inventory Management System)
 
-👤 אודות
+# 👤 אודות
 פותח על ידי Ayelet Shira כפרויקט אישי ללמידה עצמית והעמקת הידע בפיתוח Full-Stack.
 
 
@@ -38,6 +38,7 @@
 
 ### 1. הגדרת בסיס הנתונים
 הריצו את השאילתה הבאה ב-MySQL Workbench:
+
 CREATE DATABASE StoreDB;
 USE StoreDB;
 CREATE TABLE Products (
@@ -49,20 +50,14 @@ CREATE TABLE Products (
 );
 
 
-2. הגדרת השרת (Backend)
+### 2. הגדרת השרת (Backend)
 היכנסו לתיקיית inventory-server.
-
 הריצו npm install.
-
 צרו קובץ .env עם פרטי ה-DB שלכם (Host, User, Password, Name).
-
 הפעילו: node server.js.
 
-3. הגדרת האתר (Frontend)
+### 3. הגדרת האתר (Frontend)
 היכנסו לתיקיית inventory-web.
-
 הריצו npm install.
-
 הפעילו: ng serve.
-
 היכנסו ל: http://localhost:4200.

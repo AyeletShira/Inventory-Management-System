@@ -49,7 +49,7 @@ CREATE TABLE Products (
     price DECIMAL(10, 2),
     stockQuantity INT
 );
-
+```
 
 ### 2. הגדרת השרת (Backend)
 היכנסו לתיקיית inventory-server.

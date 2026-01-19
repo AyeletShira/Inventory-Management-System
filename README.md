@@ -39,6 +39,7 @@
 ### 1. הגדרת בסיס הנתונים
 הריצו את השאילתה הבאה ב-MySQL Workbench:
 
+```sql
 CREATE DATABASE StoreDB;
 USE StoreDB;
 CREATE TABLE Products (
